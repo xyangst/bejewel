@@ -13,8 +13,8 @@
 		on:click
 		class="p-1"
 		style="
-	    width: {TILE_SIZE}px;
-		height: {TILE_SIZE}px;"
+	    width: {$TILE_SIZE}px;
+		height: {$TILE_SIZE}px;"
 		><div class="tile tile{tile.type}" class:selected-tile={selected} style="--tile-size:60px;" />
 	</button>
 {/if}
