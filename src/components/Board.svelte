@@ -19,8 +19,7 @@
 
 	onMount(() => {
 		addEventListener("resize", () => {
-			console.log($TILE_SIZE * columns + BOARD_PADDING * 2, document.body.clientWidth)
-			TILE_SIZE.set(getTileSize())
+			if (getTileSize() != $TILE_SIZE) TILE_SIZE.set(getTileSize())
 		})
 	})
 </script>
@@ -34,10 +33,6 @@
     --tile-size: {$TILE_SIZE}px;
   "
 	>
-		<Grid
-			on:gameover={() =>
-				dispatch("gameover")
-			}
-		/>
+		<Grid on:gameover={() => dispatch("gameover")} />
 	</div>
 </main>
