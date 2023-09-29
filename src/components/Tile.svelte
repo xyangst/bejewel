@@ -24,16 +24,16 @@
 		@apply brightness-75;
 	}
 	.tile1 {
-		@apply hue-rotate-[210deg];
+		@apply hue-rotate-[200deg];
 	}
 	.tile2 {
 		@apply hue-rotate-[280deg];
 	}
 	.tile3 {
-		@apply hue-rotate-[144deg];
+		@apply hue-rotate-[100deg];
 	}
 	.tile4 {
-		@apply hue-rotate-[72deg];
+		@apply hue-rotate-[50deg];
 	}
 	.cell {
 		position: absolute;
