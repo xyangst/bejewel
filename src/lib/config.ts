@@ -6,5 +6,5 @@ export const baseScore = 60
 export const BOARD_PADDING = 10
 export const TILE_SIZE = 60
 export const TILE_AMOUNT = 60
-export const ghlink = "https://www.github.com/xyangst/match3"
+export const ghlink = "https://www.github.com/xyangst/bejewel"
 export const title = "bejeweled svelte"
